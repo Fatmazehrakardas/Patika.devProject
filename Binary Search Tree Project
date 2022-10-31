@@ -1,5 +1,15 @@
 
-JHFLIWJVİGŞRLÖ
-VDFLBNDŞBLÖD
-BDMBİŞANGŞŞNL.SÖFH
-JNHLLÇÖ
+[7,5,1,8,3,6,0,9,4,2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+root=8;
+
+                    8                     
+                  /   \ 
+                 5     9
+                /  \
+              2      6 
+             /  \      \
+            1    3      7 
+           /      \
+           0        4
