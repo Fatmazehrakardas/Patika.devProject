@@ -1,1 +1,28 @@
 
+Merge Sort 
+[16,21,11,8,12,22] 
+
+> Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. 
+
+                          [16,21,11,8,12,22]             2^0
+                             /           \
+                       [16,21,11]       [8,12,22]        2^1
+                       /   \               /   \
+                   [16,21] [11]         [8,12]  [22]     2^2
+                   /  \     |            /  \     |       :
+                [16] [21] [11]         [8]  [12] [22]     :  >>>2^x 
+                 \   /     |             \   /     | 
+                [16,21]   [11]         [8,12]    [22]
+                 16 vs 11               8 vs 22 - 12 vs 22
+                 [11,16,21]                [8,12,22]  
+                          \                /
+                          [8,11,12,16,21,22]
+
+> Big O gösterimini yazınız.
+ eleman sayısı n;
+ bölme işlemi uygulama sayısı x;
+  2^x=n => logn=x
+  
+   O(nlogn)
+   
+   
